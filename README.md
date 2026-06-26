@@ -28,9 +28,9 @@ Dado que el costo de no identificar a clientes deudores es mucho más elevado al
 |--------|--------|-----------|----------|---------|
 | Benchmark (Aleatorio) | ~20% | ~20% | ~20% | ~0.49 |
 | Árbol — 2 variables | 52.3% | 33.4% | 40.8% | 0.656 |
-| Árbol — completo | 60.7% | 30.3% | 40.4% | 0.658 |
-| Árbol — GridSearchCV | — | — | — | — |
-| Random Forest | — | — | — | — |
+| Árbol — completo | 60.8% | 30.3% | 40.5% | 0.658 |
+| Árbol — GridSearchCV | 64.0% | 29.7% | 40.5% | 0.660 |
+| Random Forest | 57.9% | 33.9% | 42.7% | 0.686 |
 
 Los meses de deuda acumulados (`n_meses_deuda_sep`) y el límite de crédito (`limite_credito`) son consistentemente las variables más importantes para la predicción, concentrando el 83% de la importancia total en los modelos de árbol.
 
