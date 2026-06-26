@@ -4,6 +4,7 @@ __pycache__/
 
 # Archivos temporales de notebooks
 .ipynb_checkpoints/
+entregable2.ipynb
 
 # Entorno virtual
 .venv/
