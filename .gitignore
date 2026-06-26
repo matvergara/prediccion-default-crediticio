@@ -4,7 +4,6 @@ __pycache__/
 
 # Archivos temporales de notebooks
 .ipynb_checkpoints/
-entregable2.ipynb
 
 # Entorno virtual
 .venv/
@@ -12,6 +11,8 @@ entregable2.ipynb
 # Apuntes de uso personal y notebook de pruebas
 notas_personales.txt
 workbench.ipynb
+entregable2.ipynb
+CLAUDE.md
 
 # Datos procesados
 data/processed
