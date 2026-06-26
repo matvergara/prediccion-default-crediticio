@@ -2,6 +2,9 @@
 
 Modelado predictivo a partir de datos crediticios de Taiwán (año 2005) bajo el marco del **Trabajo Práctico Final** para la materia *Introducción al Aprendizaje Automático* (LCD-UNSAM)
 
+🚀 **[Probá la app interactiva →](https://prediccion-default.streamlit.app/)**  
+Ingresá el perfil de un cliente y los 4 modelos estiman en tiempo real la probabilidad de default.
+
 ---
 
 ## 📚 Contexto
@@ -55,6 +58,7 @@ prediccion-default-crediticio/
 │   └── visualization/
 │       ├── config_vis.py           # Configuración visual global
 │       └── ml_plots.py             # Plots de frontera de decisión
+├── app.py                              # App interactiva (Streamlit)
 ├── requirements.txt
 └── README.md
 ```
@@ -84,6 +88,7 @@ Luego de la limpieza (eliminación de registros con transiciones de deuda ilógi
 - **scikit-learn** — implementación de modelos y pipelines de ML
 - **seaborn & matplotlib** — visualización de datos y resultados
 - **numpy & pandas** — manipulación y análisis de datos
+- **Streamlit** — app interactiva de predicción deployada en la nube
 
 ## ⚙️ Instalación
 
